@@ -11,5 +11,7 @@ public class Principal
       //Consigo el objeto
       Circulo circulo2 = (Circulo)SaveObjects.getObject("circulo.data");
       System.out.println(circulo2);
+
+      System.out.println("Hola raza");
 	}
 }
