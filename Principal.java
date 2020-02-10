@@ -3,19 +3,35 @@ public class Principal
 {
 	public static void main(String[] args)
    {
-      //Guardo el objeto
-      Circulo circulo = new Circulo(5);
-      SaveObjects.saveObject(circulo, "circulo.data");
-      
-      
-      //Consigo el objeto
-      Circulo circulo2 = (Circulo)SaveObjects.getObject("circulo.data");
-      System.out.println(circulo2);
+      System.out.println("Inicio");
 
-      System.out.println("Adios raza");
-      System.out.println("Hola Enrico");
-      System.out.println("Hola, Pablo");
+   }
+   
+   public static int multiplicacion (int x, int y)
+   {
+      float resultado = x*y;
 
-      System.out.println("Haz un mainkra, Pablo!");
-	}
+      return resultado;
+   }
+
+   public static int division (int x, int y)
+   {
+      float resultado = x/y;
+
+      return resultado;
+   }
+
+   public static int suma (int x, int y)
+   {
+      float resultado = x+y;
+
+      return resultado;
+   }
+
+   public static int resta (int x, int y)
+   {
+      float resultado = x-y;
+
+      return resultado;
+   }
 }
