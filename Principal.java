@@ -12,7 +12,8 @@ public class Principal
       Circulo circulo2 = (Circulo)SaveObjects.getObject("circulo.data");
       System.out.println(circulo2);
 
-      System.out.println("Hola raza2");
+      System.out.println("Adios raza");
       System.out.println("Hola Enrico");
+      System.out.println("Hola, Pablo");
 	}
 }
