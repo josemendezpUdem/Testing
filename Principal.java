@@ -7,28 +7,28 @@ public class Principal
 
    }
    
-   public static float multiplicacion (int x, int y)
+   public static float multiplicacion (float x, float y)
    {
       float resultado = x*y;
 
       return resultado;
    }
 
-   public static float division (int x, int y)
+   public static float division (float x, float y)
    {
       float resultado = x/y;
 
       return resultado;
    }
 
-   public static float suma (int x, int y)
+   public static float suma (float x, float y)
    {
       float resultado = x+y;
 
       return resultado;
    }
 
-   public static float resta (int x, int y)
+   public static float resta (float x, float y)
    {
       float resultado = x-y;
 
