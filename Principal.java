@@ -13,6 +13,7 @@ public class Principal
       System.out.println(circulo2);
 
       System.out.println("Adios raza");
+      System.out.println("Hola Enrico");
       System.out.println("Hola, Pablo");
 
       System.out.println("Haz un mainkra, Pablo");
